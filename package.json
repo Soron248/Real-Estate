@@ -1,0 +1,31 @@
+{
+  "name": "realestate",
+  "private": true,
+  "version": "0.0.0",
+  "homepage": "https://Soron248.github.io/Real-Estate",
+  "type": "module",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "framer-motion": "^10.8.5",
+    "react": "^18.2.0",
+    "react-accessible-accordion": "^5.0.0",
+    "react-countup": "^6.4.2",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.8.0",
+    "react-outside-click-handler": "^1.3.0",
+    "swiper": "^9.1.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^3.1.0",
+    "gh-pages": "^5.0.0",
+    "vite": "^4.2.0"
+  }
+}
